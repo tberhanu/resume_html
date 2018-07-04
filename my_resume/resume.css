@@ -6,6 +6,7 @@ html {
 }
 body {
   margin: 0;
+  line-height: 200%;
 }
 
 header, footer {
@@ -29,14 +30,16 @@ header, footer {
 }
 
 .middle_section {
-  height: 400px;
+  height: 800px;
+
   margin-bottom: 0;
   margin-right: 0;
   background: #EDF2F4;
 }
 .profession {
-  width: 60%;
-  margin-left: 50px;
+  width: 30%;
+
+  margin-left: 150px;
   float: left;
 
 }
@@ -44,7 +47,7 @@ header, footer {
 .aside-class {
   width: 30%;
   margin-left: 0;
-  margin-right: 20px;
+  margin-right: 150px;
   float: right;
 }
 
@@ -52,7 +55,7 @@ header, footer {
   /* paddling-top: 0; */
   width: 50%;
   padding-bottom: 0;
-  margin-left: 50px;
+  margin-left: 150px;
 
 }
 .footer {
@@ -75,15 +78,12 @@ footer {
 .wrapper {
   paddling: 50px;
 }
-.f {
+
+p {
+  paddling: 120%;
+}
+/* .f {
   font-family: font-family: 'Caveat', cursive;
-
 }
-
-/* h2 {
-  margin-top: 0;
-  padding-top: 0;
-} */
 .space {
-  /* margin-bottom: -10; */
-}
+} */
