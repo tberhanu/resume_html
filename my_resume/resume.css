@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  /* background: #2B2D42; */
+  background: gray;
+  /* color: #8D99AE; */
+  color: #2B2D42;
+}
+
+.image {
+  width: 30%;
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 200px;
+  margin-bottom: 5%;
+  /* text-align: center; */
+  /* float: left; */
+}
+
+.intro {
+  width: 350px;
+  margin-top: 80px;
+  margin-right: 250px;
+  float: right;
+
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.education {
+  clear: left;
+}
