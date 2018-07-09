@@ -1,0 +1,119 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+  margin: 0;
+  /* line-height: 50px; */
+}
+/*                    Header                            */
+header {
+  position: relative;
+}
+.download {
+  font-size: 40px;
+  background: red;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  /*z-index: 100;*/
+  /* margin-right: -20px; */
+}
+nav a {
+  font-size: 20px;
+}
+
+.image {
+  width: 30%;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  left: 240px;
+  top: 50px;
+}
+.about {
+  float: right;
+  position: relative;
+  right: 240px;
+  top: 50px;
+}
+.image-about {
+  height: 400px; /*important b/c floated sizes are not recognized by the parent element*/
+  background: linear-gradient(rgb(112,128,144), rgb(255,218,185));
+}
+.main-wrapper {
+  background: gray;
+  height: 600px;
+  margin-bottom: -40px;
+  padding-top: 30px;
+}
+main {
+  width: 35%;
+  margin-left: 200px;
+  float: left;
+}
+aside {
+  width: 20%;
+  margin-right: 200px;
+  float: right;
+}
+/*                      Sectioin: Projects                     */
+.projects-background-image {
+
+  height: 100%;
+  background: url(../images/toronto.jpg) no-repeat fixed;
+  background-size: cover;
+  /* position: relative; */
+  /* bottom: 20px; */
+  /* background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)),
+              url(../images/toronto.jpg) no-repeat fixed; */
+}
+.color-cover {
+  height: 100%;
+
+  background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5));
+  background-size: cover;
+}
+.projects {
+  height: 400px;
+  clear: both;
+  margin-bottom: -38px;
+}
+
+/*    Footer                                                  */
+footer {
+  height: 350px;
+  background: black;
+  text-align: center;
+}
+.footer-stuffs {
+  position: relative;
+  top: 120px;
+  color: white;
+}
+#connect {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+
+}
+.footer-stuffs a {
+  display: inline-block;
+  width: 130px;
+  color: red;
+}
+
+#copyright {
+  padding: 30px;
+}
