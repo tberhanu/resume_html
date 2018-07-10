@@ -4,90 +4,98 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devise-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/new_styles.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> -->
     <title> Tesfahun Berhanu</title>
   </head>
 
   <body>
 
-    <header>
-      <a href="images/updated_resume.pdf" download class="download">download resume</a>
+    <header id="about">
+      <!-- <a href="images/updated_resume.pdf" download class="download">download resume</a>
       <nav>
         <a href="#image-about">about</a>
         <a href="#education">education</a>
         <a href="#wordk">work</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
-      </nav>
-      <div class="image-about" id="image-about">
-        <div class="pic">
-          <img class="image" src="images/cal_pic.jpg" alt="Tess pic">
-        </div>
-        <div class="about">
+      </nav> -->
+      <div class="content_wrapper" id="image_about">
+        <img class="image small_col" src="images/cal_pic.jpg" alt="Tess pic">
+        <div class="about big_col">
           <h1> Tesfahun Berhanu </h1>
           <h2> Software Engineer </h2>
           <h3> "I am not just a starter, but also a finisher.<br> I know how to finish
-            what I started.<br> I never give up in my life, so should you." </h3>
+            what I started.<br> I never give up in my life, so should you."</h3>
         </div>
       </div>
+
     </header>
 
-    <div class="main-wrapper">
-      <main>
-        <div class ="education" id="education">
-          <h3>Universit of California, Berkeley</h3>
-            <p> I got my Bachelor of Science degree from Electrical Engineering
-              and Computer Science department. Specifically, my degree is in Computer
-              Science Engineering, and I am interested more in web design and development
-              in both front and back end.</p>
-        </div>
-        <div class="work" id="work">
-          <h3>Potters Hand Non Profit Counselling Center, CA/Pleasanton</h3>
-          <p>I worked as a Software Engineer in building the company website from the scratch.
-            We used Ruby on Rails to build the website. We also used Rspec and Cucumber as
-            a testing tools. In the front end, I implement my knowledge of html, css, javascript,
-            jQuery, and bootstrap to build the front end. Besides the technical stuffs, I learned
-            a lot about how to work with others, and how to work with the clients including the
-            challenges as a positive experience.</p>
-          <h3>Laney College, CA/Oakland</h3>
-          <p>I worked as tutor, helping students with homework and lab, covering some classes in the
-            absence of the professor. It was fun, and I teach myself a lot while trying to help students</p>
-        </div>
-      </main>
+    <main id="edu_work_skills">
+      <!-- <section id="edu_work"> -->
+        <div class="content_wrapper">
+          <div class="big_col2">
+            <div class ="education">
+              <h3>Universit of California, Berkeley</h3>
+                <p> I got my Bachelor of Science degree from Electrical Engineering
+                  and Computer Science department. Specifically, my degree is in Computer
+                  Science Engineering, and I am interested more in web design and development
+                  in both front and back end.</p>
+            </div>
+            <div class="work">
+              <h3>Potters Hand Non Profit Counselling Center, CA/Pleasanton</h3>
+              <p>I worked as a Software Engineer in building the company website from the scratch.
+                We used Ruby on Rails to build the website. We also used Rspec and Cucumber as
+                a testing tools. In the front end, I implement my knowledge of html, css, javascript,
+                jQuery, and bootstrap to build the front end. Besides the technical stuffs, I learned
+                a lot about how to work with others, and how to work with the clients including the
+                challenges as a positive experience.</p>
+              <h3>Laney College, CA/Oakland</h3>
+              <p>I worked as tutor, helping students with homework and lab, covering some classes in the
+                absence of the professor. It was fun, and I teach myself a lot while trying to help students</p>
+            </div>
+          </div>
+      <!-- </section> -->
 
-      <aside class="skills" id="skills">
-        <h3>Skills</h3>
-          <ul>
-            <li> C, C++, Scheme, Assembly Language </li>
-            <li> Python, Ruby, Java, Ruby on Rails </li>
-            <li> HTML, CSS, SQL, javascript </li>
-          </ul>
+        <section id="skills">
+          <div class="content_wrapper">
+            <div class="skills small_col2">
+              <!-- <div class="skills"> -->
+                <h3>Skills</h3>
+                  <p>
+                    C, C++, Scheme, Assembly Language <br>
+                    Python, Ruby, Java, Ruby on Rails <br>
+                    HTML, CSS, SQL, javascript </br>
+                  </p>
 
-        <h3> Non Professional Skills</h3>
-          <ul>
-            <li><i><b>Swimming:</b></i> worked as a coach and life saver </li>
-            <li><i><b>Ping Pong:</b></i> past member of National youth team </li>
-          </ul>
+                <h3> Non Professional Skills</h3>
+                  <p>
+                    <i><b>Swimming:</b></i> worked as a coach and life saver <br>
+                    <i><b>Ping Pong:</b></i> past member of National youth team <br>
+                  </p>
 
-        <h3>Languages</h3>
-          <ul>
-            <li>English</li>
-            <li>Amharic</li>
-            <li>Kiswahili</li>
-          </ul>
+                <h3>Languages</h3>
+                  <p>
+                    English<br>
+                    Amharic<br>
+                    Kiswahili<br>
+                  </p>
 
-        <h3>Personal Projects</h3>
-          <ul>
-            <li><i><b>Room mate finder:</b></i> an ongoing project</li>
-          </ul>
-      </aside>
-    </div>
+                <h3>Personal Projects</h3>
+                  <p>
+                    <i><b>Room mate finder:</b></i> an ongoing project<br>
+                  </p>
+                <!-- </div> -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
 
-
-    <section class="projects" id="projects">
-      <div class="projects-background-image">
-        <div class="color-cover">
+    <section id="projects">
+      <div class="content_wrapper">
           <h2>Some of the interesting projects I did at UC Berkeley</h2>
             <ul>
               <li><i><b>Bear git:</b></i> Building significant part of simple version of git using C languages</li>
@@ -96,22 +104,26 @@
                 <li><i><b>Ants vs Somebees game:</b></i> Building significant part of this game using Python</li>
             </ul>
         </div>
-        </div>
-    </section>
+      </section>
 
 
-    <footer>
-      <div class="footer-stuffs">
-        <p id="connect"> Let's keep in touch!! </p>
-        <a href="#">tberhanu@berkeley.edu</a>
-        <a href="#">linkden</a>
-        <a href="#">my website</a>
-        <p id="copyright"> Copyright 2018 by Tesfahun Berhanu </p>
-      </div>
-    </footer>
+      <footer>
+        <section class="content_wrapper">
+          <p> Let's keep in touch!! </p>
+          <div class="links">
+            <a href="#">tberhanu@berkeley.edu</a>
+            <a href="#">linkden</a>
+            <a href="#">my_website</a>
+          </div>
+          <p id="copyright"> Copyright 2018 by Tesfahun Berhanu </p>
+        </section>
+      </footer>
+
+      <!-- // Footer & contact info -->
+
+
   </body>
 </html>
-
 
 
   <!-- navigation bar -->

@@ -10,9 +10,14 @@ body, html {
   margin: 0;
   /* line-height: 50px; */
 }
+body {
+  margin: 0 auto;
+}
 /*                    Header                            */
 header {
-  position: relative;
+  height: 400px; /*important b/c floated sizes are not recognized by the parent element*/
+  background: linear-gradient(rgb(112,128,144), rgb(255,218,185));
+  position: relative; /*this(parent) is needed for the download class position to be absolute*/
 }
 .download {
   font-size: 40px;
@@ -50,7 +55,8 @@ nav a {
   top: 50px;
 }
 .image-about {
-  height: 400px; /*important b/c floated sizes are not recognized by the parent element*/
+  /* height: 400px; /*important b/c floated sizes are not recognized by the parent element*/ */
+  height: 100%;
   background: linear-gradient(rgb(112,128,144), rgb(255,218,185));
 }
 .main-wrapper {

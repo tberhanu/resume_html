@@ -1,0 +1,110 @@
+
+/*  Global Selectors
+---------------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+/* h3, h2, p, ul {
+  margin: 0;
+} */
+.content_wrapper {
+  max-width: 1200px;
+  padding: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*  HEADER and FOOTER
+_______________________________________________*/
+
+header, footer {
+  background: gray;
+}
+main {
+  text-align: center;
+}
+
+/*  header   */
+header {
+  text-align: center;
+}
+.skills {
+  padding-top: -80px;
+  position: relative;
+  left: 30px;
+}
+.education {
+  padding-top: 50px;
+  position: relative;
+  left: 30px;
+}
+.work {
+  position: relative;
+  left: 30px;
+}
+.small_col {
+  width: 30%;
+  float: left;
+  /* padding-left: 50px; */
+}
+.big_col {
+  /* float: left; */
+  width: 70%;
+  float: left;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.big_col2 {
+  width: 40%;
+  float: left;
+  /* border: 2px solid blue; */
+}
+.small_col2 {
+  width: 60%;
+  float: left;
+  /* border: 2px solid blue; */
+
+}
+
+/*  footer   */
+footer {
+  text-align: center;
+}
+
+.links a {
+  display: inline-block;
+  background: yellow;
+  padding: 5.5%;
+}
+.image {
+  border-radius: 50%;
+  position: relative;
+  left: 200px;
+}
+
+/*  Main: Education, work and skills
+________________________________________________*/
+/* #edu_work_skills {
+  background: yellow;
+} */
+
+/* Education and Work
+________________________________________________ */
+
+
+/* Projects
+________________________________________________*/
+#projects {
+  background: blue;
+}
+
+/*  FOOTER
+________________________________________________*/
