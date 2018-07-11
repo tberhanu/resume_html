@@ -6,28 +6,32 @@
     <meta name="viewport" content="width=devise-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="css/new_styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="css/new_styles_two.css"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+
     <title> Tesfahun Berhanu</title>
   </head>
 
   <body>
 
     <header id="about">
-      <!-- <a href="images/updated_resume.pdf" download class="download">download resume</a>
+      <a href="images/updated_resume.pdf" download class="download">download resume</a>
       <nav>
-        <a href="#image-about">about</a>
+        <a href="#about">about</a>
         <a href="#education">education</a>
-        <a href="#wordk">work</a>
+        <a href="#work">work</a>
         <a href="#skills">skills</a>
         <a href="#projects">projects</a>
-      </nav> -->
+      </nav>
       <div class="content_wrapper" id="image_about">
         <img class="image small_col" src="images/cal_pic.jpg" alt="Tess pic">
         <div class="about big_col">
           <h1> Tesfahun Berhanu </h1>
           <h2> Software Engineer </h2>
-          <h3> "I am not just a starter, but also a finisher.<br> I know how to finish
-            what I started.<br> I never give up in my life, so should you."</h3>
+          <h3> "I know how to finish
+            what I started,<br> and never give up, so should you."</h3>
         </div>
       </div>
 
@@ -37,14 +41,14 @@
       <!-- <section id="edu_work"> -->
         <div class="content_wrapper">
           <div class="big_col2">
-            <div class ="education">
+            <div id="education" class ="education">
               <h3>Universit of California, Berkeley</h3>
                 <p> I got my Bachelor of Science degree from Electrical Engineering
                   and Computer Science department. Specifically, my degree is in Computer
                   Science Engineering, and I am interested more in web design and development
                   in both front and back end.</p>
             </div>
-            <div class="work">
+            <div id="work" class="work">
               <h3>Potters Hand Non Profit Counselling Center, CA/Pleasanton</h3>
               <p>I worked as a Software Engineer in building the company website from the scratch.
                 We used Ruby on Rails to build the website. We also used Rspec and Cucumber as
@@ -59,9 +63,9 @@
           </div>
       <!-- </section> -->
 
-        <section id="skills">
-          <div class="content_wrapper">
-            <div class="skills small_col2">
+        <section>
+          <!-- <div class="content_wrapper"> -->
+            <div id="skills" class="skills small_col2">
               <!-- <div class="skills"> -->
                 <h3>Skills</h3>
                   <p>
@@ -89,27 +93,29 @@
                   </p>
                 <!-- </div> -->
             </div>
-          </div>
+          <!-- </div> -->
         </section>
       </div>
     </main>
 
     <section id="projects">
       <div class="content_wrapper">
+        <div class="projects">
           <h2>Some of the interesting projects I did at UC Berkeley</h2>
             <ul>
-              <li><i><b>Bear git:</b></i> Building significant part of simple version of git using C languages</li>
-                <li><i><b>Text Editor:</b></i> Building simpler version fo a text editor using Java</li>
-                <li><i><b>The Game of Hog:</b></i> Building significant part of the game of Hog using Python</li>
-                <li><i><b>Ants vs Somebees game:</b></i> Building significant part of this game using Python</li>
+              <li><i><b><h3>Bear git:</h3> Building significant part of simple version of git using C languages</b></i></li>
+                <li><i><b><h3>Text Editor:</h3> Building simpler version fo a text editor using Java</b></i></li>
+                <li><i><b><h3>The Game of Hog:</h3> Building significant part of the game of Hog using Python</b></i></li>
+                <li><i><b><h3>Ants vs Somebees game:</h3> Building significant part of this game using Python</b></i></li>
             </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
 
       <footer>
         <section class="content_wrapper">
-          <p> Let's keep in touch!! </p>
+          <p id="msg"> See you then!! </p>
           <div class="links">
             <a href="#">tberhanu@berkeley.edu</a>
             <a href="#">linkden</a>
